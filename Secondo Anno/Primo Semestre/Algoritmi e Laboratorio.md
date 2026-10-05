@@ -57,5 +57,83 @@ Soluzione di $P(n)=S$
  >$[a_{1},a_{2},a_{3},\dots,a_{n}]=\begin{cases}[a_1,a_2,a_3] \\  [a_{4},a_{5},a_{n}]\end{cases}\to merge\to [a_{1},a_{2},a_{3},\dots,a_{n}]$
 
 >**QUICK SORT**
->$[a_{1},a_{2},a_{3},\dots,a_{n}]=\begin{cases}[a_1,a_2,a_3] <\\ < [a_{4},a_{5},a_{n}]\end{cases}\to [a_{1},a_{2},a_{3},\dots,a_{n}]$
- 
+>$[a_{1},a_{2},a_{3},\dots,a_{n}]=\begin{cases}[a_1,a_2,a_3] <\\ < [a_{4},a_{5},a_{n}]\end{cases}\to [a_{1},a_{2},a_{3},\dots,a_{n}]$ ---
+
+**Calcolo Fattoriale**
+$n! =1\cdot 2\cdot 3\cdot \dots,\cdot n$
+```C
+// versione iterativa
+FATT(n)=n!
+F = i
+FOR i <- 2 TO n DO
+F <- F x i
+RETURN F
+```
+
+$$n! = \begin{cases}
+1 & se \ n=1 \\
+n(n-1)! & se  \ n>1
+\end{cases}$$
+```C
+FATT(n)
+IF (n==1) THEN RETURN 1
+RETURN n x FATT(n-1)
+```
+
+Si viene a creare un albero di ricorsione.
+
+---
+**Array Ricorsivo**
+
+$\array{n}=\begin{cases} null & se \ n=0\\ Array[n-1] & se\ n > 0 \end{cases}$
+---
+**Sequenza di Fibonacci**
+```
+FIB(n)
+IF n<=2 2 THEN RETURN 1
+RETURN FIB(n-2)+FIB(n-1)
+```
+![[FibTree.gif]]
+ **QUICK SORT**   
+``` Python
+// versione ricorsiva
+QUICKS(A,i,j) 
+m <- Partition(A,i,j); 
+QUICKS(A,i,m); 
+QUICKS(A,m,j);
+``` 
+
+```python
+QUICKS(A,n)
+i = 1;
+j = n;
+WHILE (i < j) DO
+
+
+```
+
+**Problema Dello Zaino**
+$A=\{a_{1},a_{2},a_{3},\dots,a_{n}\}$
+$\forall 1\leq i \leq n\implies P_{i}=1$
+$S\subseteq A$
+$S=\max\left\{ \sum_{a_{i}\in S}v_{i}:|S|\leq k  \right\}$
+$k=$ peso massimo dello zaino.
+Un ladro entra in una casa con uno zaino che ha $k$ massima resistenza di peso.
+Nella casa ci sono $n$ oggetti di valori differenti ma di stesso peso.
+
+$$Zaino(A,n,k)=\begin{cases}0 & k=0 \\  v_{n}+Zaino(A,n-1,k-1)\end{cases}$$
+```C
+Zaino(A,n,k)
+IF n==0 OR k==0 RETURN 0
+RETURN $v_n$ + Zaino(A,n-1,k-1)
+```
+
+---
+Modifichiamo una proprietà, i pesi adesso sono differenti.
+$$Zaino(A,n,k)=\begin{cases}
+0 & se\ n=0\ || \ k= 0 \\ \\
+\max\{v_{n}+Zaino(A,n-1,k-P_{n}),Zaino(A,n-1,k)\}
+\end{cases}$$
+$A=\{a_{1},a_{2},a_{3},a_{4}\}$
+$P=\{5,6,3,2\}$
+$v=\{10,2,5,9\}$

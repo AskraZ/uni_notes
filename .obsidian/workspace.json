@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Secondo Anno/Primo Semestre/Algoritmi e Laboratorio.md",
+                "file": "Secondo Anno/Primo Semestre/Basi di Dati.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Algoritmi e Laboratorio"
+              "title": "Basi di Dati"
             }
           }
         ]
@@ -46,7 +46,7 @@
                 "searchQuery": ""
               },
               "icon": "lucide-folder-closed",
-              "title": "Esplora file"
+              "title": "Files"
             }
           },
           {
@@ -83,7 +83,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "428380214b5e6dcd",
@@ -179,29 +180,35 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "switcher:Apri selettore rapido": false,
-      "graph:Apri vista grafo": false,
-      "canvas:Crea nuova lavagna": false,
-      "daily-notes:Apri nota giornaliera": false,
-      "templates:Inserisci modello": false,
-      "command-palette:Apri riquadro comandi": false,
-      "bases:Crea nuova Base": false,
-      "audio-recorder:Avvia/ferma registrazione": false
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "audio-recorder:Start/stop recording": false,
+      "command-palette:Open command palette": false,
+      "bases:Create new base": false
     }
   },
   "active": "477faa05843b2ae8",
   "lastOpenFiles": [
+    "screenshot-2026-10-05_12-43-31.png",
+    "Indice.md",
+    "FibTree.gif",
     "Secondo Anno/Primo Semestre/Basi di Dati.md",
-    "Secondo Anno/Primo Semestre/Elementi di Analisi 2.md",
+    "screenshot-2026-10-05_11-50-08.png",
+    "screenshot-2026-10-05_11-37-06.png",
+    "Secondo Anno/Primo Semestre/Algoritmi e Laboratorio.md",
+    "Recording 20261002105853.m4a",
+    "Pasted image 20261002102452.png",
     "Secondo Anno/Primo Semestre/Interazione e Multimedia.md",
+    "Secondo Anno/Primo Semestre/Elementi di Analisi 2.md",
     "Recording 20261001125823.m4a",
     "Screenshot 2026-10-01 at 12-42-51 Interazione & Multimedia - Lez 02 - I fondamenti 2025-2026.pdf.png",
     "Screenshot 2026-10-01 at 12-42-30 Interazione & Multimedia - Lez 02 - I fondamenti 2025-2026.pdf.png",
     "Screenshot 2026-10-01 at 12-42-09 Interazione & Multimedia - Lez 02 - I fondamenti 2025-2026.pdf.png",
     "orario.pdf",
-    "Indice.md",
     "Secondo Anno/Secondo Semestre/Secondo Semestre.md",
-    "Secondo Anno/Primo Semestre/Algoritmi e Laboratorio.md",
     "Primo Anno/Secondo Semestre/Inglese.md",
     "Primo Anno/Secondo Semestre/Elementi di Analisi 1.md",
     "Primo Anno/Secondo Semestre/Senza nome",

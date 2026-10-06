@@ -46,3 +46,4 @@ Due relazioni $R$ e $S$ possono usufruire di que
 $$R\cup S=\{t|t\in R\ \vee t\in S\}$$
 $$R-S=\{t|t\in R \wedge t\not\in S\}$$
 $$R\cap S=\{t|t\in R\wedge t\in S\}$$
+it 

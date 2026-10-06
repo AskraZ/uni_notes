@@ -13,3 +13,7 @@
 | [[Interazione e Multimedia]]       | Secondo Anno - Primo Semestre |        |                |
 | [[Basi di Dati]]                   | Secondo Anno - Primo Semestre |        |                |
 | [[Elementi di Analisi 2]]          | Secondo Anno - Primo Semestre |        |                |
+# CALENDARIO ESAMI
+**STRUTTURE DISCRETE** 18/12/26
+**ANALISI 1** 17/12/26
+**ALGEBRA LINEARE** 22/12/26

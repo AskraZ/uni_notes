@@ -12,5 +12,3 @@ Libro: Elaborazione delle Immagini Digitali Pearson
 ![[Screenshot 2026-10-01 at 12-42-09 Interazione & Multimedia - Lez 02 - I fondamenti 2025-2026.pdf.png|376]]
 #### VETTORORIZZAZIONE
 ![[Screenshot 2026-10-01 at 12-42-30 Interazione & Multimedia - Lez 02 - I fondamenti 2025-2026.pdf.png|512]]![[Screenshot 2026-10-01 at 12-42-51 Interazione & Multimedia - Lez 02 - I fondamenti 2025-2026.pdf.png|511]]l'immagine vettoriale in questo caso per avere la precisione di una raster ha bisogno di 53 bit per Pixel (spropositato).
-
-![[Recording 20261001125823.m4a]]

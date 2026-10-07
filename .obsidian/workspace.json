@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Secondo Anno/Primo Semestre/Interazione e Multimedia/Laboratorio.md",
+                "file": "Secondo Anno/Primo Semestre/Basi di Dati.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Laboratorio"
+              "title": "Basi di Dati"
             }
           }
         ]
@@ -83,7 +83,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "428380214b5e6dcd",
@@ -99,7 +100,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "orario.pdf",
+                "file": "Secondo Anno/Primo Semestre/Basi di Dati.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -109,7 +110,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Riferimenti"
+              "title": "Backlinks"
             }
           },
           {
@@ -118,12 +119,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "orario.pdf",
+                "file": "Secondo Anno/Primo Semestre/Basi di Dati.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Collegamenti in uscita"
+              "title": "Outgoing links"
             }
           },
           {
@@ -161,21 +162,21 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "orario.pdf",
-                "followCursor": false,
+                "file": "Secondo Anno/Primo Semestre/Basi di Dati.md",
+                "followCursor": true,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Struttura"
+              "title": "Outline"
             }
           }
-        ]
+        ],
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 200
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -189,11 +190,15 @@
       "bases:Create new base": false
     }
   },
-  "active": "9efb380d8beb7607",
+  "active": "477faa05843b2ae8",
   "lastOpenFiles": [
+    "screenshot-2026-10-07_08-52-36.png",
+    "screenshot-2026-10-07_08-28-14.png",
+    "screenshot-2026-10-07_08-20-57.png",
+    "screenshot-2026-10-07_08-18-40.png",
+    "Secondo Anno/Primo Semestre/Interazione e Multimedia/Laboratorio.md",
     "Secondo Anno/Primo Semestre/Interazione e Multimedia/sketch",
     "Secondo Anno/Primo Semestre/Interazione e Multimedia/Untitled.md",
-    "Secondo Anno/Primo Semestre/Interazione e Multimedia/Laboratorio.md",
     "Secondo Anno/Primo Semestre/Interazione e Multimedia/Interazione e Multimedia.md",
     "Secondo Anno/Primo Semestre/Interazione e Multimedia",
     "Secondo Anno/Primo Semestre/Basi di Dati.md",
@@ -209,7 +214,6 @@
     "Recording 20261001125823.m4a",
     "Screenshot 2026-10-01 at 12-42-51 Interazione & Multimedia - Lez 02 - I fondamenti 2025-2026.pdf.png",
     "Screenshot 2026-10-01 at 12-42-30 Interazione & Multimedia - Lez 02 - I fondamenti 2025-2026.pdf.png",
-    "Screenshot 2026-10-01 at 12-42-09 Interazione & Multimedia - Lez 02 - I fondamenti 2025-2026.pdf.png",
     "orario.pdf",
     "Secondo Anno/Secondo Semestre/Secondo Semestre.md",
     "Primo Anno/Secondo Semestre/Inglese.md",
@@ -229,7 +233,6 @@
     "Secondo Anno/Primo Semestre",
     "Interazione e Multimedia.md",
     "Secondo Anno",
-    "Primo Anno/Secondo Semestre",
-    "Primo Anno/Primo Semestre"
+    "Primo Anno/Secondo Semestre"
   ]
 }

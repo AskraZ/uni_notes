@@ -83,3 +83,20 @@ $\pi(\sigma_{Sal>salH}(\sigma_{Number\to NumbH,Name \to NameH, Age\to AgeH, Sala
 Trovare numero e nome dei responsabili i cui impiegati guadagnano tutti meno di 40k€.
 $\pi_{Head}(Supervision)-\pi_{Head}[Supervision \bowtie_{Employee=Number}\sigma_{sal<40}(Employees)]$
 
+# 09/10/26
+$\forall=\not\exists$
+**JOIN INCOMPLETI**
+Alcune duple possono non essere interessate dal Join, esse vengono chiamate *Dangling Duple*.
+**OUTER JOIN**
+
+**SEMI-JOIN**
+
+**UNIONE ESTERNA** 
+
+**SELEZIONE CON VALORI NULLI**
+![[screenshot-2026-10-09_11-33-18.png|420]]$$\sigma_{Età>40}(\mathrm{Impiegati})$$
+i valori NULL non vengono considerati
+
+**QUOZIENTE**
+$$R\div S=\{w|{\{w\}\times S\subseteq R}\}$$
+\

@@ -91,11 +91,11 @@
     "type": "split",
     "children": [
       {
-        "id": "70e7bb192be5a073",
+        "id": "47917b8633cce2db",
         "type": "tabs",
         "children": [
           {
-            "id": "afc108cf14b15192",
+            "id": "5757e4f731799633",
             "type": "leaf",
             "state": {
               "type": "backlink",
@@ -114,7 +114,7 @@
             }
           },
           {
-            "id": "bb0a9bd710ff6cd2",
+            "id": "f1bf5ecd79d25cec",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
@@ -128,7 +128,7 @@
             }
           },
           {
-            "id": "8b72fed5080e8468",
+            "id": "0a97eb6f5aae6c2b",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -139,11 +139,11 @@
                 "searchQuery": ""
               },
               "icon": "lucide-tags",
-              "title": "Etichette"
+              "title": "Tags"
             }
           },
           {
-            "id": "b0d2970f9866a41b",
+            "id": "12defbf51620281c",
             "type": "leaf",
             "state": {
               "type": "all-properties",
@@ -153,17 +153,17 @@
                 "searchQuery": ""
               },
               "icon": "lucide-archive",
-              "title": "Tutte le proprietà"
+              "title": "All properties"
             }
           },
           {
-            "id": "4dfcee8d95130da8",
+            "id": "a47f07c696b67662",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
                 "file": "Secondo Anno/Primo Semestre/Basi di Dati.md",
-                "followCursor": true,
+                "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
@@ -171,12 +171,12 @@
               "title": "Outline"
             }
           }
-        ],
-        "currentTab": 4
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -192,6 +192,7 @@
   },
   "active": "477faa05843b2ae8",
   "lastOpenFiles": [
+    "screenshot-2026-10-09_11-33-18.png",
     "screenshot-2026-10-07_08-52-36.png",
     "screenshot-2026-10-07_08-28-14.png",
     "screenshot-2026-10-07_08-20-57.png",
@@ -213,7 +214,6 @@
     "Secondo Anno/Primo Semestre/Elementi di Analisi 2.md",
     "Recording 20261001125823.m4a",
     "Screenshot 2026-10-01 at 12-42-51 Interazione & Multimedia - Lez 02 - I fondamenti 2025-2026.pdf.png",
-    "Screenshot 2026-10-01 at 12-42-30 Interazione & Multimedia - Lez 02 - I fondamenti 2025-2026.pdf.png",
     "orario.pdf",
     "Secondo Anno/Secondo Semestre/Secondo Semestre.md",
     "Primo Anno/Secondo Semestre/Inglese.md",

@@ -15,6 +15,7 @@ Siano
 Superchiave
 SELEZIONE
 Serve
+SEMI
 PARTE
 Pearson
 Pi
@@ -47,6 +48,8 @@ DI
 Diremo
 DIFFERENZA
 Due
+Dangling
+Duple
 IN
 Immagini
 IMMAGINI
@@ -60,6 +63,7 @@ IYiy
 Il
 INTEGRITA
 INTERSEZIONE
+INCOMPLETI
 APERTE
 Adatta
 Appelli
@@ -70,6 +74,7 @@ Anno
 Attribuzione
 Attributi
 ALGEBRA
+Alcune
 LABORATORIO
 Libro
 Loco
@@ -80,6 +85,7 @@ Vettoriale
 VETTORORIZZAZIONE
 Voto
 VINCOLI
+VALORI
 Elaborazione
 EAM
 Esame
@@ -115,6 +121,7 @@ dell
 definite
 dopo
 del
+duple
 adatta
 avere
 allocano
@@ -189,6 +196,7 @@ int
 indica
 impiegati
 impiegato
+interessate
 con
 corso
 caso
@@ -209,6 +217,7 @@ cerchio
 circonferenza
 colonne
 cui
+chiamate
 qualit
 questo
 quelle
@@ -279,6 +288,7 @@ valori
 variabile
 vero
 visualizzare
+vengono
 una
 un
 ulteriore
@@ -309,6 +319,7 @@ Chiavi
 CHIAVI
 CHIAVE
 CARTESIANO
+CON
 Un
 UzWI
 Uk
@@ -329,6 +340,7 @@ esterne
 ellipse
 ellisse
 estrapolare
+esse
 Grande
 GIF
 ORALE
@@ -337,6 +349,7 @@ ORDINAMENTO
 Ordinamento
 Office
 OPERATORI
+OUTER
 Heap
 HXhx
 QUICK
@@ -348,9 +361,11 @@ Fibonacci
 FUNZIONI
 JZjz
 JOIN
+Join
 jf
 Xn
 Zk
 Null
 Natural
+NULLI
 width

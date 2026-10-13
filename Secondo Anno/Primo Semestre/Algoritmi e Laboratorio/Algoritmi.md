@@ -31,6 +31,22 @@ $$Albero=\begin{cases}
 3. Combinazione: Unione di tutti i risultati per risolvere il macro-problema.
 ---
 ### COMPLESSITA' COMPUTAZIONALE
+### STIME ASINTOTICHE
+![[differenza-notazione-o-omega-theta.gif]]
+>[!hint] Notazione $\theta$ 
+indica il caso medio, ovvero l'insieme di tutte le funzioni che crescono alla stessa velocità di una funzione di riferimento $g(n)$.
+$$\theta(g(n))=\{f(n)|\exists c_{1},c_{2},n_{0}>0 \ \text{tali che} \ 0\leq c_{1}g(n)\leq f(n)\leq c_{2}g(n), \forall n\geq 0\}$$
+
+![[big-theta-tight-bound-graph.png]]
+
+>[!Hint] NOTAZIONE $O$
+indica il peggior scenario possibile, ovvero un limite che la funzione può raggiungere ma non supera mai.
+$$O(g(n))=\{f(n)|\exists c>0,n_{0}>0 \ \text{tali che}\ 0\leq f(n)\leq cg(n), \forall n > n_{0}\}$$
+
+>[!Hint] NOTAZIONE $\Omega$
+con la notazione $\Omega$ indichiamo il caso migliore che la funzione può assumere.
+$$\Omega(g(n))=\{f(n)|\exists c>0,n_{0}>0 \ \text{tali che } 0\leq cg(n)\leq f(n),\forall n>n_{0}\}$$
+
 **EQUAZIONE DI RICORRENZA**
 Un equazione di ricorrenza descrive la performance di un algoritmo con dimensione $n$:
 $$T(n)=\sum_{i=0}^{K}T(n_{i})+f(n)$$
@@ -42,7 +58,27 @@ dove $T(n_{i})$ rappresenta il tempo necessario per risolvere il sotto problema 
 > **Somma di un Array**: se dividiamo l'array in due, allora avremo $T(n)=2T\left( \frac{n}{2} \right)+O(1)$
 > **Merge Sort**: Ogni livello di ricorsione prevede una divisione in due sottoarray, ma la fase di merge richiede tempo lineare.
 > $T(n)=2T\left( \frac{n}{2} \right)+O(n)=O(n\log n)$
+#### ALBERO DI RICORSIONE 
+Ricordiamo l'equazione generale di Ricorrenza: $T(n)=aT\left( \frac{n}{b} \right)+f(n)$
+- La radice corrisponde al problema iniziale di dimensione $n$
+- i nodi interni rappresentano le chiamate ricorsive generate a ciascun livello
+- ogni nodo è etichettato con il costo del lavoro locale $f(n_{1})$ dove $n_{1}$ è la dimensione del sotto-problema.
+- i figli di un nodo rappresentano le chiamate generate dal quel nodo.
+quindi l'albero di ricorsione si calcola con $$\sum_{i=0}^{h}a^{i}f\left( \frac{n}{b^{i}} \right)$$  ![[OIP.webp]]
+#### METODO DELLA SOSTITUZIONE 
+>[!warning] metodo che all'esame viene richiesto per dimostrare il risultato 
 
+Questo metodo consiste nel formulare un ipotesi sulla forma asintotica della soluzione e dimostrare che l'ipotesi è corretta con un ragionamento induttivo.
+**STEP DA SEGUIRE**
+1. si formula un ipotesi del comportamento asintotico (con il teorema master)
+2. si sostituisce l'ipotesi nell'equazione generale di ricorrenza 
+3. Se necessario si aggiusta l'ipotesi e si riparte da (1)
+>[!example] Esempio 1 - Ricerca Binaria
+> consideriamo l'equazione della ricerca binaria trovata prima: $T (n) = T \left(  \frac{n}{2} \right) + 1$ 
+> L'intuizione (l'albero di ricorsione) $n$ suggerisce una crescita logaritmica.
+> Supponiamo quindi: $T (n) \leq c log_{2} n$ sostituendo otteniamo che:
+>  $T (n) \leq c log_{2} \frac{n}{2} + 1 = c(log_{2} n − 1) + 1 = c log_{2} n − c + 1$ Affinché la disuguaglianza 
+>  $T (n) \leq c log_{2} n$ sia rispettata, è sufficiente che: $−c + 1 \leq 0$ cioè $c \geq 1$Anche in questo caso la nostra ipotesi è coerente ed è $T (n) = O(\log n)$
 #### TEOREMA MASTER 
 $$T(n)=aT\left( \frac{n}{b} \right)+F(n)$$
 $F(n)\to$ corrisponde al lavoro fatto alla radice dell'albero $n^{\log_{a}b}$
@@ -79,4 +115,4 @@ $F(n)=n$
 $\log_{4} 2<n^1$
 $aF\left( \frac{n}{b} \right)\leq cn$ 
 $T\left( \frac{n}{4} \right)<c\frac{n}{4}$
-s
+---

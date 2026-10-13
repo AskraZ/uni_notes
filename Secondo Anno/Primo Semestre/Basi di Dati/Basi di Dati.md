@@ -63,6 +63,11 @@ con $R=\{A_{1}:T_{1},\dots,A_{n}:T_{n}\}$ e $S=\{A_{n+1}:T_{n+1},\dots,A_{n+m}:T
 - $\theta$ JOIN
 $$R\bowtie S=\{t|t[XY]\in R\vee t[YZ]\in S\}\implies R\bowtie S=t[XYZ]$$![[screenshot-2026-10-07_08-28-14.png|497]]
 $$R\bowtie_{\sigma_{F}}S={\sigma(R\times S)}$$
+
+**DIVISIONE**
+$$R\div S=\{w|\{w\}\times S\subseteq R\}$$
+restituisce tutti i record di $R$ che hanno correlazione con tutti i record di $S$
+![[Screenshot 2026-10-13 155504.png|482]]
 ###### QUERY 
 ESERCIZIO 
 ![[screenshot-2026-10-07_08-52-36.png|607]]$$Employees\bowtie_{Number=Employee}Supervision$$
@@ -83,8 +88,6 @@ $\pi(\sigma_{Sal>salH}(\sigma_{Number\to NumbH,Name \to NameH, Age\to AgeH, Sala
 ---
 Trovare numero e nome dei responsabili i cui impiegati guadagnano tutti meno di 40k€.
 $\pi_{Head}(Supervision)-\pi_{Head}[Supervision \bowtie_{Employee=Number}\sigma_{sal<40}(Employees)]$
-
-## 09/10/26
 
 **JOIN INCOMPLETI**
 
@@ -108,6 +111,7 @@ RIGHT: Solo dangling del secondo operando
 
 FULL: Teniamo i dangling di entrambi gli operandi
 
+
 # ALGORITMO DI QUERY OPTIMIZATION
 
 > [!info] Due espressioni sono dette *Equivalenti* se producono lo stesso risultato.
@@ -118,7 +122,3 @@ FULL: Teniamo i dangling di entrambi gli operandi
 > può essere espressa come:
 > $\pi_{Professore}(\sigma_{Nome='MarioRossi'}Studenti\bowtie\sigma_{Voto>27}(ESAMI\bowtie CORSI))$
 
-**REGOLE**
-1. $\sigma_{c(X)}(\sigma_{c(Y)}(R))=\sigma_{c(X)\wedge c(Y)}(R)$ Raggruppamento di restrizioni 
-2. $\sigma_{c(X)}(\pi_{Y}(R))=\pi_{Y}(\sigma_{c(X)}(R))$ se $X\subseteq Y$ Commutatività
-3. 

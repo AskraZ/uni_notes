@@ -6,7 +6,6 @@
       {
         "id": "08edd2d6e7d62009",
         "type": "tabs",
-        "dimension": 48.36647727272727,
         "children": [
           {
             "id": "f12c42dcfea58e21",
@@ -14,31 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Secondo Anno/Primo Semestre/Algoritmi e Laboratorio/Algoritmi.md",
+                "file": "Secondo Anno/Primo Semestre/Analisi 2/Elementi di Analisi 2.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Algoritmi"
-            }
-          }
-        ]
-      },
-      {
-        "id": "0393e9b379862f07",
-        "type": "tabs",
-        "dimension": 51.63352272727273,
-        "children": [
-          {
-            "id": "28f02b27727ab438",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "Secondo Anno/Primo Semestre/Algoritmi e Laboratorio/Algoritmi.pdf"
-              },
-              "icon": "lucide-file-text",
-              "title": "Algoritmi"
+              "title": "Elementi di Analisi 2"
             }
           }
         ]
@@ -103,8 +83,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "428380214b5e6dcd",
@@ -211,13 +190,17 @@
   },
   "active": "f12c42dcfea58e21",
   "lastOpenFiles": [
+    "Secondo Anno/Primo Semestre/Analisi 2/Elementi di Analisi 2 1.md",
+    "Secondo Anno/Primo Semestre/Basi di Dati/Basi di Dati.md",
+    "Secondo Anno/Primo Semestre/Basi di Dati/Basi di Dati 1.md",
     "Secondo Anno/Primo Semestre/Algoritmi e Laboratorio/Algoritmi.pdf",
     "Secondo Anno/Primo Semestre/Algoritmi e Laboratorio/Algoritmi.md",
+    "Secondo Anno/Primo Semestre/Algoritmi e Laboratorio/Algoritmi e Laboratorio.md",
+    "Secondo Anno/Primo Semestre/Algoritmi e Laboratorio/Algoritmi e Laboratorio 1.md",
     "OIP.webp",
     "differenza-notazione-o-omega-theta.gif",
     "big-theta-tight-bound-graph.png",
     "Secondo Anno/Primo Semestre/Basi di Dati/File/lezione7_SQL_I.pdf",
-    "Secondo Anno/Primo Semestre/Basi di Dati/Basi di Dati.md",
     "Secondo Anno/Primo Semestre/Interazione e Multimedia/sketch/sketch_261013a/sketch_261013a/sketch_261013a.pde",
     "Secondo Anno/Primo Semestre/Interazione e Multimedia/sketch/sketch_261013a/sketch_261013a",
     "Secondo Anno/Primo Semestre/Basi di Dati/File/lezione6_AlgebraRelazionaleOttimizzazioneQuery.pdf",
@@ -238,7 +221,6 @@
     "Schermata_20261012_105226.png",
     "Secondo Anno/Primo Semestre/Elementi di Analisi 2.md",
     "Secondo Anno/Primo Semestre/Algoritmi e Laboratorio.md",
-    "Secondo Anno/Primo Semestre/Algoritmi e Laboratorio/Algoritmi e Laboratorio.md",
     "Secondo Anno/Primo Semestre/Basi di Dati.md",
     "screenshot-2026-10-09_11-33-18.png",
     "screenshot-2026-10-07_08-52-36.png",
@@ -253,8 +235,6 @@
     "Primo Anno/Primo Semestre/Programmazione I.md",
     "Primo Anno/Primo Anno.md",
     "Primo Anno/Primo Semestre/Primo Semestre.md",
-    "Secondo Anno/Secondo Anno.md",
-    "Primo Anno/Secondo Semestre/Secondo Semestre.md",
-    "Interazione e Multimedia.md"
+    "Secondo Anno/Secondo Anno.md"
   ]
 }

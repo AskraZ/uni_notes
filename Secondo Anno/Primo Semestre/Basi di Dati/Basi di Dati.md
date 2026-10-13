@@ -1,6 +1,7 @@
 Canale di Comunicazione: moodle
 Esame: Prova Scritta + Progetto 
 Itinere:
+Sito Algebra relazionale: https://dbis-uibk.github.io/relax/
 # 02/10/26
 Un database è un insieme organizzato di dati che si evolvono nel tempo.
 **DBMS** è un sistema software in grado di gestire collezioni di dati che sono:
@@ -83,3 +84,41 @@ $\pi(\sigma_{Sal>salH}(\sigma_{Number\to NumbH,Name \to NameH, Age\to AgeH, Sala
 Trovare numero e nome dei responsabili i cui impiegati guadagnano tutti meno di 40k€.
 $\pi_{Head}(Supervision)-\pi_{Head}[Supervision \bowtie_{Employee=Number}\sigma_{sal<40}(Employees)]$
 
+## 09/10/26
+
+**JOIN INCOMPLETI**
+
+Nel caso in cui alcuni valori tra gli attributi comuni non coincidono
+
+![[Schermata_20261012_105226.png]]
+
+in questo caso perdiamo la riga di Smith in r_1 e la riga di purchasing in r_2.
+
+Le n-uple che non partecipano al JOIN sono dette dangling n-uple.
+
+**OUTER JOIN**
+
+Un JOIN senza n-uple dangling, sostituendo gli attributi con NULL.
+
+ci sono tre tipi di outer join:
+
+LEFT: Solo dangling del primo operando
+
+RIGHT: Solo dangling del secondo operando
+
+FULL: Teniamo i dangling di entrambi gli operandi
+
+# ALGORITMO DI QUERY OPTIMIZATION
+
+> [!info] Due espressioni sono dette *Equivalenti* se producono lo stesso risultato.
+- Push selection: $\sigma_{A=10}(R_{1}\bowtie R_{2})=R_{1}\bowtie\sigma_{A=10}R_{2}$
+ 
+> [!example] Supponiamo di voler trovare tutti i professori che hanno dato a Mario Rossi più di 27.
+> $\pi_{Professore}(\sigma_{Nome='Mario Rossi'\wedge Voto>27}(STUDENTI \bowtie ESAMI \bowtie CORSI))$
+> può essere espressa come:
+> $\pi_{Professore}(\sigma_{Nome='MarioRossi'}Studenti\bowtie\sigma_{Voto>27}(ESAMI\bowtie CORSI))$
+
+**REGOLE**
+1. $\sigma_{c(X)}(\sigma_{c(Y)}(R))=\sigma_{c(X)\wedge c(Y)}(R)$ Raggruppamento di restrizioni 
+2. $\sigma_{c(X)}(\pi_{Y}(R))=\pi_{Y}(\sigma_{c(X)}(R))$ se $X\subseteq Y$ Commutatività
+3. 

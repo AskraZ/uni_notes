@@ -6636,8 +6636,6 @@ AAAACD
 Arial
 ALBERO
 ASINTOTICHE
-Affinch
-Anche
 LABORATORIO
 Libro
 Loco
@@ -9340,7 +9338,6 @@ EUjE
 Ebk
 EGb
 Ehk
-Esempio
 delle
 disegni
 di
@@ -10269,11 +10266,11 @@ dmG
 dIq
 dyz
 dimostrare
-disuguaglianza
 adatta
 avere
 allocano
 algoritmo
+albero
 allora
 attributi
 altezza
@@ -13812,8 +13809,6 @@ scenario
 supera
 sulla
 sostituisce
-suggerisce
-sufficiente
 in
 immagini
 immagine
@@ -14788,7 +14783,6 @@ indichiamo
 interni
 ipotesi
 induttivo
-intuizione
 con
 corso
 caso
@@ -15730,11 +15724,6 @@ calcola
 consiste
 corretta
 comportamento
-consideriamo
-crescita
-cio
-coerente
-considerati
 qualit
 questo
 quelle
@@ -17592,7 +17581,6 @@ nUf
 notazione
 nodi
 nell
-nostra
 zoom
 zY
 zWX
@@ -20309,8 +20297,6 @@ ricorsive
 richiesto
 ragionamento
 riparte
-ricerca
-rispettata
 figure
 float
 fill
@@ -22151,7 +22137,6 @@ lvb
 lMA
 limite
 locale
-logaritmica
 Tipologia
 Teams
 Trovare
@@ -23970,7 +23955,6 @@ tMY
 tCYUS
 tSU
 teorema
-trovata
 vettoriale
 variabili
 valore
@@ -27490,7 +27474,6 @@ bBc
 bmp
 bNO
 bcell
-binaria
 xx
 xV
 xRZI
@@ -31019,7 +31002,6 @@ oMR
 oND
 ost
 ovvero
-otteniamo
 evolvono
 elementi
 eKWmT
@@ -35565,7 +35547,6 @@ QNh
 Qvl
 Quartz
 Questo
-QUOZIENTE
 Fattoriale
 Fibonacci
 FUNZIONI

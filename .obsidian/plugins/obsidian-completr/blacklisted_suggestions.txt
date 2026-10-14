@@ -13,3 +13,5 @@ PROIEZIONE
 Propedeuticit
 stuu
 albero
+prE
+precedente

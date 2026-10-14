@@ -4,17 +4,19 @@
     "type": "split",
     "children": [
       {
-        "id": "08edd2d6e7d62009",
+        "id": "7906c6039f8419b9",
         "type": "tabs",
         "children": [
           {
-            "id": "f12c42dcfea58e21",
+            "id": "1399f1b7bc96e2c7",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "Nuova scheda"
+              "type": "pdf",
+              "state": {
+                "file": "Secondo Anno/Primo Semestre/Analisi 2/file/6 ottobre 2026_AL ed MZ.pdf"
+              },
+              "icon": "lucide-file-text",
+              "title": "6 ottobre 2026_AL ed MZ"
             }
           }
         ]
@@ -79,7 +81,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "428380214b5e6dcd",
@@ -184,36 +187,36 @@
       "bases:Crea nuova Base": false
     }
   },
-  "active": "9efb380d8beb7607",
+  "active": "1399f1b7bc96e2c7",
   "lastOpenFiles": [
-    "screenshot-2026-10-07_08-52-36.png",
-    "screenshot-2026-10-07_08-28-14.png",
-    "screenshot-2026-10-07_08-20-57.png",
-    "screenshot-2026-10-07_08-18-40.png",
-    "screenshot-2026-10-05_12-43-31.png",
-    "screenshot-2026-10-05_11-50-08.png",
-    "screenshot-2026-10-05_11-37-06.png",
-    "Screenshot 2026-10-13 155504.png",
-    "Screenshot 2026-10-01 at 12-42-51 Interazione & Multimedia - Lez 02 - I fondamenti 2025-2026.pdf.png",
-    "Screenshot 2026-10-01 at 12-42-30 Interazione & Multimedia - Lez 02 - I fondamenti 2025-2026.pdf.png",
-    "Screenshot 2026-10-01 at 12-42-09 Interazione & Multimedia - Lez 02 - I fondamenti 2025-2026.pdf.png",
+    "Secondo Anno/Primo Semestre/Analisi 2/Elementi di Analisi 2.md",
+    "Secondo Anno/Primo Semestre/Analisi 2/file/6 ottobre 2026_AL ed MZ.pdf",
+    "Secondo Anno/Primo Semestre/Analisi 2/file",
+    "Secondo Anno/Primo Semestre/Basi di Dati/Basi di Dati.md",
+    "Secondo Anno/Primo Semestre/Basi di Dati/File/esercitazione3_MySQLWorkbench.pdf",
+    "Secondo Anno/Primo Semestre/Basi di Dati/File/esercitazione2_SQLAlgebraRelazionale.pdf",
+    "Secondo Anno/Primo Semestre/Basi di Dati/File/lezione7_SQL_I.pdf",
+    "Secondo Anno/Primo Semestre/Basi di Dati/File/lezione8_SQL_II.pdf",
+    "Secondo Anno/Primo Semestre/Basi di Dati/File/lezione9_SQL_III.pdf",
+    "Schermata_20261014_092629.png",
+    "Schermata_20261014_091637.png",
+    "Schermata_20261014_091508.png",
+    "Schermata_20261014_085954.png",
+    "Schermata_20261014_085506.png",
+    "Schermata_20261014_085257.png",
+    "BETWEEN.md",
+    "Schermata_20261014_084945.png",
+    "Schermata_20261014_084838.png",
+    "Schermata_20261014_083732.png",
+    "Schermata_20261014_083647.png",
     "orario.pdf",
     "Indice.md",
     "Secondo Anno/Secondo Semestre/Secondo Semestre.md",
     "Secondo Anno/Secondo Semestre",
     "Secondo Anno/Primo Semestre/Interazione e Multimedia/sketch/sketch_261013a/sketch_261013a/sketch_261013a.pde",
-    "Secondo Anno/Primo Semestre/Interazione e Multimedia/sketch/sketch_261013a/sketch_261013a.pde",
-    "Secondo Anno/Primo Semestre/Interazione e Multimedia/sketch/sketch_261013a/sketch_261013a",
-    "Secondo Anno/Primo Semestre/Interazione e Multimedia/sketch/sketch_261013a",
-    "Secondo Anno/Primo Semestre/Interazione e Multimedia/sketch/sketch_261006a.pde",
-    "Secondo Anno/Primo Semestre/Interazione e Multimedia/sketch",
-    "Secondo Anno/Primo Semestre/Interazione e Multimedia/lezioni/slideMerged.pdf",
-    "Secondo Anno/Primo Semestre/Interazione e Multimedia/lezioni/Lez 13 compressione 2024-25.pdf",
     "Secondo Anno/Primo Semestre/Interazione e Multimedia/Laboratorio.md",
     "Secondo Anno/Primo Semestre/Interazione e Multimedia/Interazione e Multimedia.md",
-    "Secondo Anno/Primo Semestre/Basi di Dati/Basi di Dati.md",
     "Secondo Anno/Primo Semestre/Basi di Dati/Basi di Dati 1.md",
-    "Secondo Anno/Primo Semestre/Analisi 2/Elementi di Analisi 2.md",
     "Secondo Anno/Primo Semestre/Algoritmi e Laboratorio/Algoritmi.md",
     "Secondo Anno/Primo Semestre/Algoritmi e Laboratorio/Algoritmi e Laboratorio.md",
     "Secondo Anno/Primo Semestre/Algoritmi e Laboratorio/Algoritmi e Laboratorio 1.md",
@@ -230,7 +233,6 @@
     "Primo Anno/Primo Semestre/Architettura Degli Elaboratori.md",
     "Secondo Anno/Primo Semestre/Analisi 2/Elementi di Analisi 2 1.md",
     "Primo Anno/Primo Semestre/Algebra Lineare.md",
-    "Primo Anno/Secondo Semestre/Programmazione II.md",
-    "Secondo Anno/Primo Semestre/Elementi di Analisi 2.md"
+    "Primo Anno/Secondo Semestre/Programmazione II.md"
   ]
 }
